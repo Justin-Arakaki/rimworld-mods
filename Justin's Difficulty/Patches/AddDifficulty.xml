@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>/Defs</xpath>
+	<value>
+	<DifficultyDef>
+    <defName>JustinStandard</defName>
+    <label>justin standard</label>
+    <description>Custom difficulty definition.
+
+(*SectionTitle)Recommended for:(/SectionTitle)
+
+- Justin's.
+- Players that want a balanced challenge.</description>
+    <difficulty>6</difficulty>
+    <threatScale>2</threatScale>
+    <adaptationEffectFactor>0.5</adaptationEffectFactor>
+    <colonistMoodOffset>-10</colonistMoodOffset>
+    <tradePriceFactorLoss>0.20</tradePriceFactorLoss>
+    <cropYieldFactor>2</cropYieldFactor>
+    <mineYieldFactor>1</mineYieldFactor>
+    <butcherYieldFactor>1</butcherYieldFactor>
+    <researchSpeedFactor>1</researchSpeedFactor>
+    <diseaseIntervalFactor>1</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>1</enemyReproductionRateFactor>
+    <deepDrillInfestationChanceFactor>1.25</deepDrillInfestationChanceFactor>
+    <wastepackInfestationChanceFactor>2</wastepackInfestationChanceFactor>
+    <foodPoisonChanceFactor>1</foodPoisonChanceFactor>
+    <maintenanceCostFactor>1</maintenanceCostFactor>
+    <enemyDeathOnDownedChanceFactor>0</enemyDeathOnDownedChanceFactor>
+    <adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
+    <scariaRotChance>0.8</scariaRotChance>
+	</DifficultyDef>
+	</value>
+</Operation>
+
+</Patch>

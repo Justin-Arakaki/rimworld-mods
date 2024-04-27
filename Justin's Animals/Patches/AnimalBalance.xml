@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Dromedary"]/statBases/ComfyTemperatureMax</xpath>
+			<value>
+      		<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Boomalope"]/race/trainability</xpath>
+			<value>
+      		<trainability>Intermediate</trainability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Boomrat"]/race</xpath>
+			<value>
+      		<trainability>Intermediate</trainability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Horse"]/race/baseHungerRate</xpath>
+			<value>
+      		<baseHungerRate>0.535</baseHungerRate>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Megascarab"]/statBases/MoveSpeed</xpath>
+			<value>
+      		<MoveSpeed>4.20</MoveSpeed>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Megaspider"]/statBases/MoveSpeed</xpath>
+			<value>
+      		<MoveSpeed>4.00</MoveSpeed>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Spelopede"]/statBases/MoveSpeed</xpath>
+			<value>
+      		<MoveSpeed>5.00</MoveSpeed>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Megaspider"]/race/baseHungerRate</xpath>
+			<value>
+      		<baseHungerRate>1.0</baseHungerRate>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Megascarab"]/race/baseHungerRate</xpath>
+			<value>
+      		<baseHungerRate>0.535</baseHungerRate>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Spelopede"]/race/baseHungerRate</xpath>
+			<value>
+      		<baseHungerRate>0.535</baseHungerRate>
+			</value>
+		</Operation>
+</Patch>

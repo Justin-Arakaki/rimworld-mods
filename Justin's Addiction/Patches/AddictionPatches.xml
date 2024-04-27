@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+		<!-- Social Drugs -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "AlcoholAddiction"]/comps/li/severityPerDay</xpath>
+			<value>
+				<severityPerDay>-0.0625</severityPerDay>
+				<!-- was -0.0333 or 30 days -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "AmbrosiaAddiction"]/comps/li/severityPerDay</xpath>
+			<value>
+				<severityPerDay>-0.1666</severityPerDay>
+				<!-- was -0.1 or 10 days -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "SmokeleafAddiction"]/comps/li/severityPerDay</xpath>
+			<value>
+				<severityPerDay>-0.0625</severityPerDay>
+				<!-- was -0.0333 or 30 days -->
+			</value>
+		</Operation>
+
+		<!-- Hard Drugs -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "PsychiteAddiction"]/comps/li/severityPerDay</xpath>
+			<value>
+				<severityPerDay>-0.0625</severityPerDay>
+				<!-- was -0.0333 or 30 days -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "WakeUpAddiction"]/comps/li/severityPerDay</xpath>
+			<value>
+				<severityPerDay>-0.0833</severityPerDay>
+				<!-- was -0.045 or 22 days -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "GoJuiceAddiction"]/comps/li/severityPerDay</xpath>
+			<value>
+				<severityPerDay>-0.0833</severityPerDay>
+				<!-- was -0.045 or 22 days -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "GoJuiceAddiction"]/comps/li/severityPerDay</xpath>
+			<value>
+				<severityPerDay>-0.0833</severityPerDay>
+				<!-- was -0.045 or 22 days -->
+			</value>
+		</Operation>
+
+		<!-- Add Min Addiction to Hard Drugs -->
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Yayo"]/comps/li</xpath>
+			<value>
+				<minToleranceToAddict>0.01</minToleranceToAddict>
+				<!-- Did not exist -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Yayo"]/ingestible/outcomeDoers/li[3]/severity</xpath>
+			<value>
+				<severity>0.09</severity>
+				<!-- was 0.04 -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Flake"]/comps/li</xpath>
+			<value>
+				<minToleranceToAddict>0.01</minToleranceToAddict>
+				<!-- Did not exist -->
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Flake"]/ingestible/outcomeDoers/li[3]/severity</xpath>
+			<value>
+				<severity>0.09</severity>
+				<!-- was 0.04 -->
+			</value>
+		</Operation>
+
+</Patch>

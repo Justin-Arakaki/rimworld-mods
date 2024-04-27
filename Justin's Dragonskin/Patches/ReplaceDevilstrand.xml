@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Plant_Devilstrand"]/label</xpath>
+			<value>
+					<label>dragonskin</label>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Plant_Devilstrand"]/description</xpath>
+			<value>
+					<description>This fragile mushroom was genetically engineered to produce a silk net that is both difficult to tear and soft to the touch. While the mushroom takes a very long time to grow, only exotic ultra-tech fabrics outperform its dragonskin fibers.\n\nSome say it's called dragonskin because of its red color. Others think it owes its name to the greed it inspires in people.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "DevilstrandCloth"]/label</xpath>
+			<value>
+					<label>dragonskin</label>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "DevilstrandCloth"]/description</xpath>
+			<value>
+					<description>Fabric spun from microfibers extracted from dragonskin mushrooms. It is very tough, good at insulating, and protects exceptionally well against flame.</description>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ResearchProjectDef[defName = "Devilstrand"]/label</xpath>
+			<value>
+					<label>Dragonskin</label>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ResearchProjectDef[defName = "Devilstrand"]/description</xpath>
+			<value>
+					<description>Plant dragonskin, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber.</description>
+			</value>
+		</Operation>		
+</Patch>

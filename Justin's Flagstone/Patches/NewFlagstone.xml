@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/TerrainDef[defName = "FlagstoneSandstone"]/costList/BlocksSandstone</xpath>
+			<value>
+					<BlocksSandstone>1</BlocksSandstone>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/TerrainDef[defName = "FlagstoneGranite"]/costList/BlocksGranite</xpath>
+			<value>
+					<BlocksGranite>1</BlocksGranite>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/TerrainDef[defName = "FlagstoneLimestone"]/costList/BlocksLimestone</xpath>
+			<value>
+					<BlocksLimestone>1</BlocksLimestone>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/TerrainDef[defName = "FlagstoneSlate"]/costList/BlocksSlate</xpath>
+			<value>
+					<BlocksSlate>1</BlocksSlate>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/TerrainDef[defName = "FlagstoneMarble"]/costList/BlocksMarble</xpath>
+			<value>
+					<BlocksMarble>1</BlocksMarble>
+			</value>
+		</Operation>
+		
+
+</Patch>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+		<!-- Centipede -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "MechCentipede"]/butcherProducts/Steel</xpath>
+			<value>
+      		<Steel>40</Steel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "MechCentipede"]/butcherProducts/Plasteel</xpath>
+			<value>
+      		<Plasteel>20</Plasteel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "MechCentipede"]/butcherProducts</xpath>
+			<value>
+      		<ComponentIndustrial>2</ComponentIndustrial>
+			</value>
+		</Operation>
+
+		<!-- Termite -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Mech_Termite"]/butcherProducts/Steel</xpath>
+			<value>
+      		<Steel>40</Steel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Mech_Termite"]/butcherProducts/Plasteel</xpath>
+			<value>
+      		<Plasteel>20</Plasteel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Mech_Termite"]/butcherProducts</xpath>
+			<value>
+      		<ComponentIndustrial>2</ComponentIndustrial>
+			</value>
+		</Operation>
+
+		<!-- Lancer, Pikeman, Scyther -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "BaseMechanoidWalker"]/butcherProducts/Steel</xpath>
+			<value>
+      		<Steel>20</Steel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "BaseMechanoidWalker"]/butcherProducts</xpath>
+			<value>
+      		<Plasteel>10</Plasteel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "BaseMechanoidWalker"]/butcherProducts</xpath>
+			<value>
+      		<ComponentIndustrial>1</ComponentIndustrial>
+			</value>
+		</Operation>
+
+		<!-- Militor -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "LightMechanoid"]/butcherProducts/Steel</xpath>
+			<value>
+      		<Steel>15</Steel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "LightMechanoid"]/butcherProducts</xpath>
+			<value>
+      		<ComponentIndustrial>1</ComponentIndustrial>
+			</value>
+		</Operation>
+
+		<!-- Heavy Mech? -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "HeavyMechanoid"]/butcherProducts/Steel</xpath>
+			<value>
+      		<Steel>40</Steel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "HeavyMechanoid"]/butcherProducts/Plasteel</xpath>
+			<value>
+      		<Plasteel>20</Plasteel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "HeavyMechanoid"]/butcherProducts</xpath>
+			<value>
+      		<ComponentIndustrial>1</ComponentIndustrial>
+			</value>
+		</Operation>
+
+		<!-- Diabolus -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "SuperHeavyMechanoid"]/butcherProducts/Steel</xpath>
+			<value>
+      		<Steel>90</Steel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "SuperHeavyMechanoid"]/butcherProducts/Plasteel</xpath>
+			<value>
+      		<Plasteel>40</Plasteel>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "SuperHeavyMechanoid"]/butcherProducts</xpath>
+			<value>
+      		<ComponentIndustrial>3</ComponentIndustrial>
+			</value>
+		</Operation>
+
+</Patch>

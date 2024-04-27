@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Days until FIRST attack -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/minDaysPassed</xpath>
+    <value>
+        <minDaysPassed>4</minDaysPassed>
+    </value>
+</Operation>
+
+<!-- Days something could happen -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/onDays</xpath>
+    <value>
+        <onDays>4</onDays>
+    </value>
+</Operation>
+
+<!-- Days nothing will happen -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/offDays</xpath>
+    <value>
+        <offDays>3.5</offDays>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/forceRaidEnemyBeforeDaysPassed</xpath>
+    <value>
+        <forceRaidEnemyBeforeDaysPassed>5.5</forceRaidEnemyBeforeDaysPassed>
+    </value>
+</Operation>
+
+<!-- Minimum days between attacks -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/minSpacingDays</xpath>
+    <value>
+        <minSpacingDays>1.4</minSpacingDays>
+    </value>
+</Operation>
+
+<!-- Minimum days between attacks -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/numIncidentsRange</xpath>
+    <value>
+        <numIncidentsRange>1~2</numIncidentsRange>
+    </value>
+</Operation>
+
+</Patch>

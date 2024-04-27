@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+		<Operation Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Apparel_VisageMask"]</xpath>
+			<value>
+					<equippedStatOffsets>
+      			<SocialImpact>0.10</SocialImpact>
+    			</equippedStatOffsets>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Stool"]/pathCost</xpath>
+			<value>
+      		<pathCost>10</pathCost>
+			</value>
+		</Operation>
+</Patch>

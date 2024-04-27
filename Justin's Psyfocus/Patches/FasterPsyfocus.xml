@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/StatDef[defName = "MeditationFocusGain"]/defaultBaseValue</xpath>
+			<value>
+					<defaultBaseValue>0.5</defaultBaseValue>
+			</value>
+		</Operation>
+
+<!--ThroneBase-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "ThroneBase"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.40</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "ThroneBase"]/comps/li[2]/offsets/li[2]/curve/points/li[1]</xpath>
+			<value>
+					<li>(0, -0.10)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "ThroneBase"]/comps/li[2]/offsets/li[2]/curve/points/li[2]</xpath>
+			<value>
+					<li>(30, 0.0)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "ThroneBase"]/comps/li[2]/offsets/li[2]/curve/points/li[3]</xpath>
+			<value>
+					<li>(60, 0.20)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "ThroneBase"]/comps/li[2]/offsets/li[2]/curve/points/li[4]</xpath>
+			<value>
+					<li>(100, 0.40)</li>
+			</value>
+		</Operation>
+				<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[@Name = "ThroneBase"]/comps/li[2]/offsets/li[2]/curve/points/li[5]</xpath>
+			<value>
+					<li>(170, 0.60)</li>
+			</value>
+		</Operation>
+
+<!--Throne-->
+		<!-- <Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Throne"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.20</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Throne"]/comps/li[2]/offsets/li[2]/curve/points/li[1]</xpath>
+			<value>
+					<li>(0, -0.10)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Throne"]/comps/li[2]/offsets/li[2]/curve/points/li[2]</xpath>
+			<value>
+					<li>(30, 0.0)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Throne"]/comps/li[2]/offsets/li[2]/curve/points/li[3]</xpath>
+			<value>
+					<li>(60, 0.20)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Throne"]/comps/li[2]/offsets/li[2]/curve/points/li[4]</xpath>
+			<value>
+					<li>(100, 0.40)</li>
+			</value>
+		</Operation>
+				<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Throne"]/comps/li[2]/offsets/li[2]/curve/points/li[5]</xpath>
+			<value>
+					<li>(170, 0.60)</li>
+			</value>
+		</Operation> -->
+
+<!--NatureShrine_Small-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "NatureShrine_Small"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.40</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "NatureShrine_Small"]/comps/li/offsets/li[2]/defs/AnimusStone</xpath>
+			<value>
+					<AnimusStone>0.10</AnimusStone>
+			</value>
+		</Operation>
+
+<!--NatureShrine_large-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "NatureShrine_Large"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.50</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "NatureShrine_Large"]/comps/li/offsets/li[2]/defs/AnimusStone</xpath>
+			<value>
+					<AnimusStone>0.20</AnimusStone>
+			</value>
+		</Operation>
+
+<!--AnimusStone-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "AnimusStone"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.40</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "AnimusStone"]/comps/li/offsets/li[2]/defs/AnimusStone</xpath>
+			<value>
+					<AnimusStone>0.20</AnimusStone>
+			</value>
+		</Operation>
+
+<!--AnimaTree-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Plant_TreeAnima"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.50</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Plant_TreeAnima"]/comps/li/offsets/li[2]/defs/AnimusStone</xpath>
+			<value>
+					<AnimusStone>0.25</AnimusStone>
+			</value>
+		</Operation>
+<!--Grave-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Grave"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.10</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Grave"]/comps/li[2]/offsets/li[3]/offsetPerBuilding</xpath>
+			<value>
+					 <offsetPerBuilding>0.02</offsetPerBuilding>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Grave"]/comps/li[2]/offsets/li[3]/focusPerFullGrave</xpath>
+			<value>
+					 <focusPerFullGrave>0.02</focusPerFullGrave>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Grave"]/comps/li[2]/offsets/li[3]/maxBuildings</xpath>
+			<value>
+					 <maxBuildings>8</maxBuildings>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Grave"]/comps/li[2]/offsets/li[2]/offset</xpath>
+			<value>
+					 <offset>0.30</offset>
+			</value>
+		</Operation>
+
+<!--Sarcophagus-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Sarcophagus"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.20</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Sarcophagus"]/comps/li[4]/offsets/li[3]/offsetPerBuilding</xpath>
+			<value>
+					 <offsetPerBuilding>0.02</offsetPerBuilding>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Sarcophagus"]/comps/li[4]/offsets/li[3]/focusPerFullGrave</xpath>
+			<value>
+					 <focusPerFullGrave>0.03</focusPerFullGrave>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Sarcophagus"]/comps/li[4]/offsets/li[3]/maxBuildings</xpath>
+			<value>
+					 <maxBuildings>8</maxBuildings>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Sarcophagus"]/comps/li[4]/offsets/li[2]/offset</xpath>
+			<value>
+					 <offset>0.30</offset>
+			</value>
+		</Operation>
+<!--Stele-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "SteleLarge"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.30</MeditationFocusStrength>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "SteleGrand"]/statBases/MeditationFocusStrength</xpath>
+			<value>
+					<MeditationFocusStrength>0.35</MeditationFocusStrength>
+			</value>
+		</Operation>
+
+<!--Sculpture-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[1]/curve/points/li[1]</xpath>
+			<value>
+					<li>(0,0.10)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[1]/curve/points/li[2]</xpath>
+			<value>
+					<li>(1,0.15)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[1]/curve/points/li[3]</xpath>
+			<value>
+					<li>(2,0.20)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[1]/curve/points/li[4]</xpath>
+			<value>
+					<li>(3,0.25)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[1]/curve/points/li[5]</xpath>
+			<value>
+					<li>(4,0.30)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[1]/curve/points/li[6]</xpath>
+			<value>
+					<li>(5,0.40)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[1]/curve/points/li[7]</xpath>
+			<value>
+					<li>(6,0.60)</li>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[2]/focusPerQuality/points/li[1]</xpath>
+			<value>
+					<li>(0,0.0)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[2]/focusPerQuality/points/li[2]</xpath>
+			<value>
+					<li>(1,0.0)</li>
+			</value>
+		</Operation>
+				<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[2]/focusPerQuality/points/li[3]</xpath>
+			<value>
+					<li>(2,0.01)</li>
+			</value>
+		</Operation>
+				<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[2]/focusPerQuality/points/li[4]</xpath>
+			<value>
+					<li>(3,0.02)</li>
+			</value>
+		</Operation>
+				<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[2]/focusPerQuality/points/li[5]</xpath>
+			<value>
+					<li>(4,0.04)</li>
+			</value>
+		</Operation>
+				<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[2]/focusPerQuality/points/li[6]</xpath>
+			<value>
+					<li>(5,0.07)</li>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[thingClass = "Building_Art"]/comps/li[3]/offsets/li[2]/focusPerQuality/points/li[7]</xpath>
+			<value>
+					<li>(6,0.10)</li>
+			</value>
+		</Operation>
+
+</Patch>

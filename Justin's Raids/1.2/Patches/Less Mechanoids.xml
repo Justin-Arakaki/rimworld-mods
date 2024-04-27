@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName = "Mechanoid"]/raidCommonalityFromPointsCurve/points</xpath>
+    <value>
+      <points>
+        <li>(300,  0)</li>
+        <li>(700,  0.4)</li>
+        <li>(1400, 0.7)</li>
+        <li>(2800, 0.9)</li>
+        <li>(4000, 1)</li>
+      </points>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[@Name = "OutlanderFactionBase"]/allowedArrivalTemperatureRange</xpath>
+    <value>
+        <allowedArrivalTemperatureRange>-40~60</allowedArrivalTemperatureRange>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[@Name = "TribeBase"]/allowedArrivalTemperatureRange</xpath>
+    <value>
+        <allowedArrivalTemperatureRange>-40~60</allowedArrivalTemperatureRange>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[@Name = "PirateBandBase"]/allowedArrivalTemperatureRange</xpath>
+    <value>
+        <allowedArrivalTemperatureRange>-40~60</allowedArrivalTemperatureRange>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName = "Sanguophages"]/allowedArrivalTemperatureRange</xpath>
+    <value>
+        <allowedArrivalTemperatureRange>-5~60</allowedArrivalTemperatureRange>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName = "Empire"]/allowedArrivalTemperatureRange</xpath>
+    <value>
+        <allowedArrivalTemperatureRange>-40~60</allowedArrivalTemperatureRange>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Justin's Animals</name>
+	<author>Justiniankoi</author>
+	<packageId>Animalasdf.FC2p.v101</packageId>
+	<url>https://ludeon.com/forums/index.php?topic=33916.0</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>
+    Dromedary: Comfortable Temp 65 was 60
+		Boomalope: Trainability Intermediate was None
+		Boomrat: Trainability Intermediate was None
+		Horse: Base Hunger 0.535 was 0.425
+		Megascarab: Movespeed 4.20 was 3.75 (Pawn is 4.6)
+			Hunger rate 0.535 was 0.10
+		Megaspider: Movespeed 4.00 was 3.60 (Pawn is 4.6)
+			Hunger rate 1.000 was 0.35
+		Spelopede: Movespeed 5.00 was 3.65 (Pawn is 4.6)
+			Hunger rate 0.535 was 0.25
+	</description>
+</ModMetaData>

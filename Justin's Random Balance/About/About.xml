@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Justin's Random Balance</name>
+	<author>Justiniankoi</author>
+	<packageId>Der.FC2p.v101</packageId>
+	<url>https://ludeon.com/forums/index.php?topic=33916.0</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>V1.01.00
+    Visage Mask: +10 SocialImpact
+		Stool: Path cost 30 to 10
+	</description>
+</ModMetaData>

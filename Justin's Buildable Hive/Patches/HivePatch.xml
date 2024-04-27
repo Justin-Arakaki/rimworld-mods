@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Hive"]</xpath>
+    <value>
+        <designationCategory>Production</designationCategory>
+    </value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Hive"]</xpath>
+    <value>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    </value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Hive"]</xpath>
+    <value>
+        <costList>
+          <InsectJelly>300</InsectJelly>
+        </costList>
+    </value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Hive"]</xpath>
+    <value>
+        <researchPrerequisites>
+          <li>BuildHive</li>
+        </researchPrerequisites>
+    </value>
+	</Operation>
+
+</Patch>
