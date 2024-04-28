@@ -3,7 +3,7 @@
 
 <!-- Days until FIRST attack -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/minDaysPassed</xpath>
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[category="ThreatBig"]/minDaysPassed</xpath>
     <value>
         <minDaysPassed>4</minDaysPassed>
     </value>
@@ -11,7 +11,7 @@
 
 <!-- Days something could happen -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/onDays</xpath>
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[category="ThreatBig"]/onDays</xpath>
     <value>
         <onDays>4</onDays>
     </value>
@@ -19,14 +19,14 @@
 
 <!-- Days nothing will happen -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/offDays</xpath>
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[category="ThreatBig"]/offDays</xpath>
     <value>
         <offDays>3.5</offDays>
     </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/forceRaidEnemyBeforeDaysPassed</xpath>
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[category="ThreatBig"]/forceRaidEnemyBeforeDaysPassed</xpath>
     <value>
         <forceRaidEnemyBeforeDaysPassed>5.5</forceRaidEnemyBeforeDaysPassed>
     </value>
@@ -34,7 +34,7 @@
 
 <!-- Minimum days between attacks -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/minSpacingDays</xpath>
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[category="ThreatBig"]/minSpacingDays</xpath>
     <value>
         <minSpacingDays>1.4</minSpacingDays>
     </value>
@@ -42,9 +42,22 @@
 
 <!-- Minimum days between attacks -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[2]/numIncidentsRange</xpath>
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[category="ThreatBig"]/numIncidentsRange</xpath>
     <value>
         <numIncidentsRange>1~2</numIncidentsRange>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[incident="OrbitalTraderArrival"]/onDays</xpath>
+    <value>
+        <onDays>5</onDays>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName="Cassandra"]/comps/li[incident="OrbitalTraderArrival"]/offDays</xpath>
+    <value>
+        <offDays>5</offDays>
     </value>
 </Operation>
 

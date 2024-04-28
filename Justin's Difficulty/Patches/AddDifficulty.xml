@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<Operation Class="PatchOperationAdd">
-  <xpath>/Defs</xpath>
-	<value>
-	<DifficultyDef>
+<Operation Class="PatchOperationInsert">
+  <xpath>/Defs/DifficultyDef[defName = "Peaceful"]</xpath>
+  <value>
+  <DifficultyDef>
     <defName>JustinStandard</defName>
-    <label>justin standard</label>
-    <description>Custom difficulty definition.
+    <label>Justin difficulty</label>
+    <description>Justin's preferred difficulty settings.
 
 (*SectionTitle)Recommended for:(/SectionTitle)
 
@@ -24,6 +24,7 @@
     <researchSpeedFactor>1</researchSpeedFactor>
     <diseaseIntervalFactor>1</diseaseIntervalFactor>
     <enemyReproductionRateFactor>1</enemyReproductionRateFactor>
+    <playerPawnInfectionChanceFactor>1</playerPawnInfectionChanceFactor>
     <deepDrillInfestationChanceFactor>1.25</deepDrillInfestationChanceFactor>
     <wastepackInfestationChanceFactor>2</wastepackInfestationChanceFactor>
     <foodPoisonChanceFactor>1</foodPoisonChanceFactor>
@@ -31,8 +32,8 @@
     <enemyDeathOnDownedChanceFactor>0</enemyDeathOnDownedChanceFactor>
     <adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
     <scariaRotChance>0.8</scariaRotChance>
-	</DifficultyDef>
-	</value>
+  </DifficultyDef>
+  </value>
 </Operation>
 
 </Patch>

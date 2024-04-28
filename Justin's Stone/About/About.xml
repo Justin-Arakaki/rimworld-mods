@@ -8,16 +8,73 @@
         <li>1.2</li>
         <li>1.3</li>
         <li>1.4</li>
+        <li>1.5</li>
     </supportedVersions>
 	<url>https://ludeon.com/forums/index.php?topic=43449</url>
-    <description>Stone changes</description>
+    <description>
+        Rebalances stone types to make using a variety of stone better.
+
+        Metal Tile Beauty: 2
+        Siler Tile Beauty: 6
+        Silver Beauty Offset: 12
+        Jade Beauty Offset: 8
+        Jade Beauty Mult: 3
+        Sandstone Damage: 0.64
+
+        Sandstone:
+            HP: 400
+            HP Mult: 1.2
+            Work to Build Mult: 2
+            Work to Make Mult: 1
+            Work to Build Offset: 70
+            Block Work: 600
+            Tile Work: 400
+            Tile Beauty: 2
+            Flagstone Work: 200
+        Granite:
+            HP: 720
+            HP Mult: 1.8
+            Work to Build Mult: 6
+            Work to Make Mult: 1.5
+            Work to Build Offset: 140
+            Block Work: 1600
+            Tile Work: 1100
+            Tile Beauty: 2
+            Flagstone Work: 500
+        Limestone:
+            HP: 640
+            HP Mult: 1.6
+            Work to Build Mult: 4
+            Work to Make Mult: 1.25
+            Beauty Offset: 1
+            Work to Build Offset: 105
+            Block Work: 1050
+            Tile Work: 800
+            Tile Beauty: 2
+            Flagstone Work: 350
+        Slate:
+            HP: 480
+            HP Mult: 1.3
+            Work to Build Mult: 3
+            Work to Make Mult: 1.2
+            Beauty Offset: 2
+            Work to Build Offset: 90
+            Block Work: 900
+            Tile Work: 250
+            Tile Beauty: 2
+            Flagstone Work: 550
+        Marble:
+            HP: 560
+            HP Mult: 1.5
+            Work to Build Mult: 5
+            Work to Make Mult: 1.4
+            Beauty Mult: 1.35
+            Beauty Offset: 2
+            Work to Build Offset: 120
+            Block Work: 1200
+            Tile Work: 700
+            Tile Beauty: 2
+            Flagstone Work: 300
+    </description>
     <packageId>JustinStone.stonerebalance</packageId>
-    <modDependencies>
-    <li>
-        <packageId>brrainz.harmony</packageId>
-        <displayName>Harmony</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-    </li>
-</modDependencies>
 </ModMetaData>
