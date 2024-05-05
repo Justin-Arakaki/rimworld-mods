@@ -18,7 +18,7 @@
     <adaptationEffectFactor>0.5</adaptationEffectFactor>
     <colonistMoodOffset>-10</colonistMoodOffset>
     <tradePriceFactorLoss>0.20</tradePriceFactorLoss>
-    <cropYieldFactor>2</cropYieldFactor>
+    <cropYieldFactor>1</cropYieldFactor>
     <mineYieldFactor>1</mineYieldFactor>
     <butcherYieldFactor>1</butcherYieldFactor>
     <researchSpeedFactor>1</researchSpeedFactor>

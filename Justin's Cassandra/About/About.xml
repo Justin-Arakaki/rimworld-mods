@@ -12,6 +12,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<description>
+		population curve: [Chance of survival] 4 at ~74%, 7 at ~30%, 12 at 30%, 15 at ~25%, 22 at ~14%
 minDaysPassed: 11 to 11
 onDays: 4.6 to 5
 offDays: 6 to 3
